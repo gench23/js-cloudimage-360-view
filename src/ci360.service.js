@@ -732,13 +732,9 @@ class CI360Viewer {
 
   addCanvas() {
     this.canvas = document.createElement('canvas');
+    this.canvas.className = "cloudimage-canvas-box";
     this.canvas.style.width = '100%';
-    this.canvas.style.fontSize = '0';
-
-    if (this.ratio) {
-      this.container.style.minHeight = this.container.offsetWidth * this.ratio + 'px';
-      this.canvas.height = parseInt(this.container.style.minHeight);
-    }
+    this.canvas.style.height = "100%";
 
     this.innerBox.appendChild(this.canvas);
   }

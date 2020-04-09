@@ -48,7 +48,7 @@ const set360ViewIconStyles = (view360Icon) => {
   view360Icon.style.margin = 'auto';
   view360Icon.style.backgroundColor = 'rgba(255,255,255,0.8)';
   view360Icon.style.borderRadius = '50%';
-  view360Icon.style.boxShadow = 'rgb(255, 255, 255, 0.5) 0px 0px 4px';
+  //view360Icon.style.boxShadow = 'rgb(255, 255, 255, 0.5) 0px 0px 4px';
   view360Icon.style.transition = '0.5s all';
   view360Icon.style.color = 'rgb(80,80,80)';
   view360Icon.style.textAlign = 'center';
@@ -57,7 +57,8 @@ const set360ViewIconStyles = (view360Icon) => {
 };
 
 const setView360Icon = (view360Icon) => {
-  view360Icon.style.background = `rgba(255,255,255,0.8) url('https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/filerobot/js-cloudimage-360-view/360_view.svg') 50% 50% / contain no-repeat`;
+  //view360Icon.style.background = `rgba(255,255,255,0.8) url('https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/filerobot/js-cloudimage-360-view/360_view.svg') 50% 50% / contain no-repeat`;
+  view360Icon.style.background = "";
 }
 
 const set360ViewCircleIconStyles = (view360CircleIcon, bottomCircleOffset) => {
